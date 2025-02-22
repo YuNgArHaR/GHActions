@@ -20,8 +20,11 @@ jobs:
       - name: Установка зависимостей
         run: npm install
 
+      - name: Дать права Jest
+        run: chmod +x node_modules/.bin/jest
+
       - name: Запуск тестов
-        run: npm test
+        run: npx jest
 
       - name: Завершение
         run: echo "CI/CD процесс завершён!"
