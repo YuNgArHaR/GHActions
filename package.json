@@ -1,0 +1,23 @@
+{
+  "name": "ghactions",
+  "version": "1.0.0",
+  "description": "- **Workflow** — это настраиваемый автоматизированный процесс, который будет запускать одно или несколько заданий.\r - **Jobs** — это набор steps в рабочем процессе, который выполняется на одном и том же runner. Каждый шаг — это либо скрипт оболочки, который будет выполнен, либо action, которое будет выполнено.\r - **Steps** — шаги внутри job, которые выполняются последовательно.\r - **Actions** — переиспользуемые команды, которые можно использовать в workflow.\r - **Events** — это определенное действие в репозитории, которое запускает workflow.\r - **Runners** — виртуальные машины, на которых выполняются jobs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuNgArHaR/GHActions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuNgArHaR/GHActions/issues"
+  },
+  "homepage": "https://github.com/YuNgArHaR/GHActions#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
